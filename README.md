@@ -27,3 +27,13 @@ Les images utilisées ici proviennent de lorempixel.com et ne sont pas toutes li
 Vous avez maintenant toutes les clés pour réaliser ce carrousel !
 
 N'oubliez pas de consulter la documentation de jQuery si vous en avez besoin, et de faire usage d'un debugger pour localiser un soucis dans votre code.
+
+##Améliorations
+
+Nous venons de vous présenter un carrousel très basique. La plupart de ceux que vous rencontrerez sur la toile sont beaucoup plus sophistiqués, mais rappelez-vous qu'ils fonctionnent presque tous de la même manière ! Que diriez-vous donc d'améliorer le votre ? Voici quelques pistes :
+- le défilement d'images n'est pas très esthétique : à la place du système de display, essayez de mettre en place des effets d'animation sympatiques !
+pour le moment, les contrôles sont très basiques : il n'est pas possible d'aller à une image précise en cliquant une seule fois. Que diriez-vous de réaliser une liste de boutons représentant chacun une diapositive ?
+- de même, il est possible de faire des miniatures des images et de les afficher en dessous du carrousel pour faire une bien meilleure navigation !
+- ...
+
+Les possibilités sont infinies, on peut toujours trouver de nouvelles idées, qu'elles soient bonnes ou non.
