@@ -13,14 +13,16 @@ Vous devez réaliser vous-même un carrousel. Simple dans un premier temps, vous
 
 Une méthode native de JavaScript va vous être utile pour faire défiler automatiquement les images. Il s'agit de `setTimeout()`, qui prend deux arguments : le nom de la fonction à exécuter, et l'intervalle de temps (en millisecondes) à attendre avant de le faire. L'astuce, c'est de relancer la fonction à l'intérieur d'elle-même pour réaliser une boucle infinie :
 
-```function maBoucle(){
+```
+function maBoucle(){
     setTimeout(function(){
         alert('Bonjour !'); // affichera "Bonjour !" toutes les secondes
         maBoucle(); // relance la fonction
     }, 1000);
 }
 
-maBoucle(); // on oublie pas de lancer la fonction une première fois```
+maBoucle(); // on oublie pas de lancer la fonction une première fois
+```
 
 Les images utilisées ici proviennent de lorempixel.com et ne sont pas toutes libres de droit.
 
